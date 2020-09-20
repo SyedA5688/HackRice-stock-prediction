@@ -51,8 +51,8 @@ def csv_to_dataset(csv_file_path):
   moving_averages_normalised = moving_averages_scaler.fit_transform(moving_averages)
 
   assert ohlcv_histories_normalised.shape[0] == next_day_open_values_normalised.shape[0] == moving_averages_normalised.shape[0]
-  #return ohlcv_histories_normalised, next_day_open_values_normalised, next_day_open_values, y_normaliser
-  return ohlcv_histories_normalised, moving_averages_normalised, next_day_open_values_normalised, next_day_open_values, y_normaliser
+  return ohlcv_histories_normalised, next_day_open_values_normalised, next_day_open_values, y_normaliser
+  #return ohlcv_histories_normalised, moving_averages_normalised, next_day_open_values_normalised, next_day_open_values, y_normaliser
 
 
 
