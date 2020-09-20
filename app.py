@@ -48,6 +48,7 @@ class PredictStockPrice(Resource):
     # use parser and find the user's query. Accepted query vals are GOOGL, MSFT, NFLX, and FB
     args = parser.parse_args()
     user_query = args['query']
+    user_query = str(user_query)
 
     # Send parameter to function to generate model's prediction of stock price of company tomorrow
     fileName = user_query + "_daily.csv"
