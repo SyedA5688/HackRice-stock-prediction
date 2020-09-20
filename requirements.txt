@@ -88,8 +88,6 @@ jupyterlab==2.1.5
 jupyterlab-server
 Keras==2.4.3
 Keras-Preprocessing==1.1.2
-keyring
-kiwisolver==1.2.0
 lazy-object-proxy==1.4.3
 libarchive-c==2.9
 locket==0.2.0
@@ -98,7 +96,6 @@ Markdown==3.2.2
 MarkupSafe==1.1.1
 matplotlib
 mccabe==0.6.1
-menuinst==1.4.16
 mistune==0.8.4
 mkl-fft==1.1.0
 mkl-random==1.1.1
