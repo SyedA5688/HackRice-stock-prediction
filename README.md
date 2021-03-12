@@ -1,6 +1,16 @@
-# HackRiceX Project - Prediction App
+# HackRiceX Stock Prediction
+This repository contains an LSTM Machine learning model for predicting stock prices of NASDAQ companies.
 
-LSTM Machine learning model for predicting stock prices of NASDAQ companies.
-Developed using Python, Tensorflow, and Keras, and hosted on Heroku web  hosting.
+# Requirements
+- Python
+- Tensorflow
+- Keras
+- Matplotlib
+- Numpy
+- Pandas
+- Sklearn
 
+For exact installation, see requirements file.
+
+# Contributors
 Developed by Syed Rizvi for HackRice X, September 2020.
